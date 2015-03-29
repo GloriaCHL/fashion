@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Theme Template for Bootstrap</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/theme.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header id="header">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="collapsed navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a id="logo"><h1>LOGO</h1></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">EXPLORE</a></li>
+                    <li><a href="#"><i class="glyphicon glyphicon-heart"></i> following</a></li>
+                    <li><a href="#">shop</a></li>
+                    <li><a href="#">create</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<aside id="aside">
+    <div class="clearfix">
+        <div class="col-xs-12">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="#Fashion" data-toggle="tab">Fashion</a></li>
+                <li><a href="#Home" data-toggle="tab">Home</a></li>
+                <li><a href="#MyItems" data-toggle="tab">My Items</a></li>
+                <li><a href="#Collection" data-toggle="tab">Collection</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="tab-content">
+        <div class="tab-pane active" id="Fashion">
+            <div class="thumbs">
+                <div class="clearfix">
+                    <div class="col-xs-5">
+                        <select class="form-control input-sm">
+                            <option value="0">Category</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-5">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control"/>
+                            <span class="input-group-btn">
+                                <button class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <ul class="list-unstyled thumb-wrap clearfix">
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img data-json="127035184" class="img-responsive" src="images/127035184.jpg"/></a><a href="#">Tops</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img data-json="127585216" class="img-responsive" src="images/127585216.jpg"/></a><a href="#">Outerwear</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img data-json="128036659" class="img-responsive" src="images/128036659.jpg"/></a><a href="#">Dresses</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img class="img-responsive" src="images/4.jpg"/></a><a href="#">Jeans</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img class="img-responsive" src="images/5.jpg"/></a><a href="#">Pants</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img class="img-responsive" src="images/6.jpg"/></a><a href="#">Skirts</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img class="img-responsive" src="images/7.jpg"/></a><a href="#">Shorts</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img class="img-responsive" src="images/8.jpg"/></a><a href="#">Shoes</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img class="img-responsive" src="images/9.jpg"/></a><a href="#">Bags</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img class="img-responsive" src="images/10.jpg"/></a><a href="#">Accessories</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img class="img-responsive" src="images/11.jpg"/></a><a href="#">Jewelry</a></div></li>
+                    <li><div class="thumb-item"><a href="#" class="thumb-img"><img class="img-responsive" src="images/1.jpg"/></a><a href="#">People & Print</a></div></li>
+                </ul>
+                <nav class="text-center sr-only">
+                    <ul class="pagination">
+                        <li>
+                            <a href="#" aria-label="Previous">
+                                <span aria-hidden="true">上一页</span>
+                            </a>
+                        </li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">下一页</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="tab-pane" id="Home"></div>
+        <div class="tab-pane" id="MyItems"></div>
+        <div class="tab-pane" id="Collection"></div>
+    </div>
+</aside>
+<section id="controller">
+    <div class="toolbar">
+        <ul class="list-unstyled clearfix tool-option-groups">
+            <li><a href="javascript:;" class="remove-item"><span class="glyphicon glyphicon-remove"></span> 删除</a></li>
+            <li><a href="javascript:;" class="horizontal-item"><span class="glyphicon glyphicon-resize-horizontal"></span> 水平翻转</a></li>
+            <li><a href="javascript:;" class="vertical-item"><span class="glyphicon glyphicon-resize-vertical"></span> 垂直翻转</a></li>
+            <li><a href="javascript:;" class="fit-item"><span class="glyphicon glyphicon-record"></span> 自适应</a></li>
+            <li>
+                <ul class="setSize list-unstyled clearfix">
+                    <li class="min-size"><img src="images/127035184.jpg"/></li>
+                    <li class="set-size-line">
+                        <div class="line"><div class="line-inner"><span class="icon" id="progressPoint"></span></div></div>
+                    </li>
+                    <li class="max-size"><img src="images/127035184.jpg"/></li>
+                </ul>
+            </li>
+        </ul>
+        <ul class="list-unstyled clearfix image-select">
+            <!--<li class="png-select active"><div style="background-image: url('images/127035184.png')"></div></li>
+            <li class="jpg-select"><div style="background-image: url('images/127035184.jpg')"></div></li>-->
+        </ul>
+        <div class="selector-info">
+            <a href="#" class="text-warning">Womens Logo Slogan Print Ladies Short Sleeve Crop Cropped...</a>
+        </div>
+    </div>
+    <div class="info-bar bg-warning text-warning">
+        <span class="glyphicon glyphicon-info-sign"></span> You are filling a template. You can only add items in the designated placeholders.
+    </div>
+    <div id="canvas">
+        <!--<div class="item sr-only" style="width: 260px;height: 160px;top: 80px;left: 100px;transform:rotate(50deg);-webkit-transform:rotate(50deg);">
+            <div class="control-point n-point"></div>
+            <div class="control-point ne-point"></div>
+            <div class="control-point e-point"></div>
+            <div class="control-point es-point"></div>
+            <div class="control-point s-point"></div>
+            <div class="control-point sw-point"></div>
+            <div class="control-point w-point"></div>
+            <div class="control-point wn-point"></div>
+            <div class="control-point rotate-point">
+                <div class="rotate-handle"></div>
+            </div>
+            <div class="fill"></div>
+        </div>-->
+    </div>
+</section>
+<div class="moveDiv"><img src="images/blank.png"/></div>
+<div class="contextMenu">
+    <div class="list-group">
+        <a href="javascript:;" class="list-group-item remove-item"><span class="glyphicon glyphicon-remove"></span> 删除</a>
+        <a href="javascript:;" class="list-group-item horizontal-item"><span class="glyphicon glyphicon-resize-horizontal"></span> 水平翻转</a>
+        <a href="javascript:;" class="list-group-item vertical-item"><span class="glyphicon glyphicon-resize-vertical"></span> 垂直翻转</a>
+        <a href="javascript:;" class="list-group-item fit-item"><span class="glyphicon glyphicon-record"></span> 自适应</a>
+    </div>
+</div>
+<script type="text/javascript" src="js/jQuery.2.1.3.js"></script>
+<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/photoEdit.js"></script>
+</body>
+</html>
